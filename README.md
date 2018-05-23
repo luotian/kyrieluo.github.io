@@ -1,2 +1,0 @@
-# kyrieluo.github.io
-blog
