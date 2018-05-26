@@ -12,6 +12,7 @@ title: About
 <h3> 联系我 </h3>
 <p>邮箱：luot918@163.com</p>
 <p>GitHub：<a href="https://github.com/luotian">luotian</a></p>
+<p>微信公众号：kyrieluo</p>
 <p>
 <h3> 鼓励我 </h3>
 <img src="/images/wechat_pay.jpg" alt="赞赏我" weight="320" height="320">
