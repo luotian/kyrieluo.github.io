@@ -1,0 +1,26 @@
+<section>
+    <div align="center">
+      <img src="/images/wechat_pay.jpg" alt="微信赞赏" weight="300" height="300">
+    </div>
+    <div class="content-play">
+    <a class="dashang" title="微信扫码打赏，支持一下">打赏一个呗</a>
+    <style type="text/css">
+      .content-play{width:100%; margin-top:10px; margin-bottom: 5px;height:40px;}
+      .dashang{display:block; width:100px; margin:5px auto; height:25px; line-height:25px;padding:10px;background-color:#E74851;color:#fff;text-align:center;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;transition: all 0.3s;}
+    </style>
+    </div>
+    <ul class="pager">
+        {% if page.previous.url %}
+        <li class="previous">
+            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">上一篇：  <span>{{page.previous.title}}</span>
+            </a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="next">
+            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">下一篇：  <span>{{page.next.title}}</span>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</section>

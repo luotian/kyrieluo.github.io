@@ -1,0 +1,54 @@
+# Basic
+title: 天
+subtitle: 个人站
+description: --  欢迎来到这里  --
+# 头像里面的标题
+avatarTitle: kyrieluo
+# 头像里面的描述
+avatarDesc: 写过几行代码
+url: "https://luotian.github.io"
+
+# Comment
+comment:
+    # disqus: leopard
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    #weibo: 5366874726 
+    github: luotian
+    # twitter: 
+    mail: luot918@163.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 318143dbed73b4f660dd1e2a54963599
+
+# 日期格式
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 12
+paginate_path: "page/:num/"
+
+
