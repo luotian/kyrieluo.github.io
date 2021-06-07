@@ -52,3 +52,5 @@ paginate: 12
 paginate_path: "page/:num/"
 
 
+
+theme: jekyll-theme-cayman
